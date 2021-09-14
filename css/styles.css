@@ -1,0 +1,122 @@
+body{
+   background: grey; 
+   margin: 0;
+
+}
+.link-title{
+  font-size: 24px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.container{
+  width: 780px;
+  margin:0 auto;
+  background: #fff;
+}
+
+.header{
+  padding: 45px 0 20px 40px;
+  border:2px dotted;
+
+}
+
+.menu{
+  background: #3b7687;
+  padding: 6px 0 6px 40px;
+
+}
+
+.menu a{
+  color: rgb(154, 182, 206);
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.menu a:hover{
+  color: #e2f5f8;
+}
+
+aside{
+  float: left;
+  width: 120px;
+  padding: 30px 0 0 40px;
+}
+
+h1{
+  margin: 0px;
+  color: #869843;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h2{
+  color: #3b7687;
+  font-size: 15px;
+  margin: 20px 0 5px 0;
+
+}
+.main{
+  margin: 0 0 0 180px;
+  padding: 35px 40px 30px 0;
+  color: #444444;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 18px;
+  font-size: 13px;
+  text-emphasis: justify;
+  
+}
+
+.main a:hover{
+  color:#444444
+}
+#home-image img{
+  width: 100%;
+}
+
+footer{
+  padding: 6px 40px 6px 40px;
+  background: #d6d6d6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #444444;
+  font-size: 11px;
+  text-decoration: right;
+  clear: both;
+
+}
+
+footer a{
+  text-decoration: none;
+  color:#262626;
+}
+
+.separator{
+  color:#ffffff;
+  font-size: 11px;
+
+}
+
+/**********About Page styles*******/
+
+#about-page #home-image img{
+  width: 70%;
+  float:left;
+  margin-bottom: 20px;
+}
+
+#about-page #profile-info{
+  float: right;
+  width: 20%;
+  margin: 5px;
+}
+
+#about-page .description{
+  clear: both;
+  margin-bottom: 20px;
+}
+
+/****************Contact Page***********/
+
