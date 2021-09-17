@@ -1,6 +1,7 @@
 body{
-   background: grey; 
+   background: #F4F4F4; 
    margin: 0;
+   
 
 }
 .link-title{
@@ -9,15 +10,21 @@ body{
   text-decoration: none;
 }
 
+.page-heading{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .container{
   width: 780px;
   margin:0 auto;
   background: #fff;
+  box-shadow:1px 2px 11px 5px  black;
 }
 
 .header{
   padding: 45px 0 20px 40px;
-  border:2px dotted;
+ 
 
 }
 
@@ -120,3 +127,33 @@ footer a{
 
 /****************Contact Page***********/
 
+#contact-page #form{
+  width:500px;
+  
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 9px 13px 5px;
+}
+
+#contact-page #form input{
+    width: 500px;
+    border-radius: 5px;
+    height: 20px;
+    background: rgb(186, 193, 207);
+
+}
+
+#contact-page #form #message{
+  width: 500px;
+  border-radius: 5px;
+  background: #d6d6d6;
+}
+
+#contact-page #form #submit{
+  height: 30px;
+  background: rgb(50,118,135);
+  margin-bottom: 5px;
+  width: 500px;
+  
+}
